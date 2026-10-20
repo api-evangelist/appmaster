@@ -1,0 +1,41 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://appmaster.io/changelog
+sources:
+- https://appmaster.io/changelog
+entries:
+- breaking: false
+  highlights:
+  - Infrastructure Resilience
+  - Automatic failover capabilities ensure your applications remain available even during infrastructure issues.
+  - Database connections now seamlessly switch to healthy replicas without manual intervention.
+  - Health Check Integration New health check endpoints integrate with popular load balancers and orchestration platforms, enabling better traffic
+    management and faster detection of unhealthy instances.
+  date: '2026-09-21'
+- breaking: false
+  date: '2026-08-17'
+- breaking: false
+  date: '2026-07-20'
+- breaking: false
+  date: '2026-06-15'
+- breaking: false
+  date: '2026-05-18'
+- breaking: false
+  date: '2026-04-13'
+- breaking: false
+  date: '2026-03-16'
+- breaking: false
+  date: '2026-02-16'
+- breaking: false
+  date: '2026-01-27'
+- breaking: false
+  date: '2025-12-20'
+- breaking: false
+  date: '2025-11-21'
+- breaking: false
+  date: '2025-10-31'
+current_version: 2026.38.1
+note: Versioning scheme follows a YEAR.MONTH.REVISION pattern (e.g., 2026.38.1). Only the most recent entry (2026.38.1) includes detailed highlights;
+  earlier entries list only version and date.
+docs: https://appmaster.io/changelog

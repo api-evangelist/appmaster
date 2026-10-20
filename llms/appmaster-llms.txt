@@ -1,0 +1,40 @@
+# AppMaster
+
+> AppMaster is a No-Code platform designed to help businesses create production-level applications with source code generation: backend, web, and native mobile apps.
+
+AppMaster generates real source code (Go backend, Vue web apps, native Kotlin/SwiftUI mobile apps) from visual blueprints, and can export it. Applications can be hosted in the AppMaster cloud or deployed to your own infrastructure.
+
+## Product
+
+- [Platform overview](https://appmaster.io/): what AppMaster builds — backend, web and native mobile applications from one visual project.
+- [Pricing](https://appmaster.io/pricing): current subscription plans (regional pricing applies; the page shows live plans and terms).
+- [Integrations](https://appmaster.io/integrations): built-in modules and external API connectivity.
+- [Showcases](https://appmaster.io/showcases): applications built on the platform.
+- [Success stories](https://appmaster.io/success-stories): customer case studies.
+- [Comparisons](https://appmaster.io/comparison): AppMaster vs other no-code and traditional development options.
+- [Security](https://appmaster.io/security): security and compliance overview.
+
+## Documentation & learning
+
+- [Documentation](https://appmaster.io/docs): full platform documentation.
+- [AppMaster University](https://appmaster.io/university): courses, tutorials and best practices.
+- [Roadmap](https://appmaster.io/roadmap): public product roadmap.
+- [Changelog](https://appmaster.io/changelog): release notes.
+
+## Content
+
+- [Blog](https://appmaster.io/blog): articles on no-code development, product updates and guides.
+- Clean markdown for any article: `https://appmaster.io/api/blog/{slug}/markdown?locale={locale}` (agents should prefer this over HTML scraping).
+- [Full site map for agents](https://appmaster.io/llms-full.txt): article index with markdown links.
+- [Blog RSS feed](https://appmaster.io/feed.xml)
+- [News](https://appmaster.io/news): platform and company news.
+- [Glossary](https://appmaster.io/glossary): software development terms explained.
+
+## Company
+
+- [Contact](https://appmaster.io/contacts): sales and support contact form.
+- [Career](https://appmaster.io/career): open positions.
+- [Partner program](https://appmaster.io/partner-program): agency and expert partnership.
+- [For investors](https://appmaster.io/for-investors)
+
+The site is available in 19 languages; localized pages live under /{locale}/ path prefixes (e.g. https://appmaster.io/es/, https://appmaster.io/de/). Sitemaps: https://appmaster.io/sitemap.xml and https://appmaster.io/api/sitemap.

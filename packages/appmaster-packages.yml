@@ -1,0 +1,36 @@
+generated: '2026-10-20'
+method: none
+source: https://registry.npmjs.org/-/v1/search?text=appmaster&size=20
+packages: []
+rejected:
+- name: '@onebro/appmaster'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-app'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-common'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-events'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-db'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-vars'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-master'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-sockets'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-logger'
+  registry: npm
+  reason: 'official: false as written'
+- name: '@onebro/am-middleware'
+  registry: npm
+  reason: 'official: false as written'
+note: 'no first-party package: every candidate a model listed was unowned (harvest-packages.py --audit)'

@@ -1,0 +1,35 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://appmaster.io/pricing
+sources:
+- https://appmaster.io/pricing
+name: AppMaster.io pricing
+audience: business-product
+pricing_basis: tiered-subscription
+plans:
+- name: Startup
+  price_text: $195 / mo
+  price: 195
+  billing_period: monthly
+  description: Community Support, 2 Web Applications, 2 Mobile Applications, 3 Project Developers, 7 Max Installed Modules, External API Request
+    Designer, Database Export, File Storage Export, Deploy Backend to, Publish Mobile App to
+- name: Startup+
+  price_text: $299 / mo
+  price: 299
+  billing_period: monthly
+  description: Community Support, 3 Web Applications, 2 Mobile Applications, 5 Project Developers, 10 Max Installed Modules, External API Request
+    Designer, Database Export, File Storage Export, Deploy Backend to, Publish Mobile App to
+- name: Business
+  price_text: $955 / mo
+  price: 955
+  billing_period: monthly
+  description: Email and phone support, 3 Web Applications, 2 Mobile Applications, 5 Project Developers, 15 Max Installed Modules, External API
+    Request Designer, Community Support, Database Export, File Storage Export, Backend Binary Files, Backend Docker Images, Deploy Backend to,
+    Publish Mobile App to
+- name: Enterprise
+  price_text: Get a Quote
+  description: Dedicated 24/7 support, 10000 Web Applications, 10000 Mobile Applications, 1000 Project Developers, 10000 Max Installed Modules,
+    External API Request Designer, Community Support, Database Export, File Storage Export, Backend Binary Files, Backend Docker Images, Backend
+    Source Code, Deploy Backend to, Publish Mobile App to
+docs: https://appmaster.io/pricing

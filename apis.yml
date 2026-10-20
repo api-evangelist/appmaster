@@ -1,23 +1,95 @@
 aid: appmaster
+
 name: AppMaster.io
-description: 'AppMaster.io is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://appmaster.io/images/appmaster.png
+
+description: 'AppMaster.io provides a no‑code development platform that enables users to build web and mobile applications through a visual drag‑and‑drop interface. It offers data modeling, business process automation, integrations with popular services, and deployment options for both cloud and on‑premises environments. The platform targets enterprises and developers seeking rapid application delivery without writing code, supporting a range of industries with customizable templates and extensive documentation.'
+
 url: https://raw.githubusercontent.com/api-evangelist/appmaster/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- No-Code
+- Platform
+- Automation
+- Integration
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/appmaster-plans-pricing.yml
+- type: ChangeLog
+  url: changelog/appmaster-changelog.yml
+- type: Compliance
+  url: https://appmaster.io/security
+- type: Authentication
+  url: authentication/appmaster-authentication.yml
+- type: Conformance
+  url: conformance/appmaster-conformance.yml
+- type: LLMsTxt
+  url: llms/appmaster-llms.txt
+- type: SecurityTxt
+  url: well-known/appmaster-security.txt
+- type: WellKnown
+  url: well-known/appmaster-well-known.yml
+- type: Hosts
+  url: hosts/appmaster-hosts.yml
+- type: Vendors
+  url: vendors/appmaster-vendors.yml
+- type: Security
+  url: https://appmaster.io/security
+- type: Newsroom
+  url: https://appmaster.io/news
+- type: Leadership
+  url: https://appmaster.io/integrations/library/management
+- type: ChangeLog
+  url: https://appmaster.io/changelog
+- type: GettingStarted
+  url: https://appmaster.io/docs/getting-started/what-is-appmaster-io
+- type: TrustCenter
+  url: security/appmaster-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/appmaster-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/appmaster-domain-security.yml
 - type: Website
   url: https://appmaster.io/
+- type: Documentation
+  url: https://appmaster.io/docs
+- type: Blog
+  url: https://appmaster.io/blog
+- type: Pricing
+  url: https://appmaster.io/pricing
+- type: Roadmap
+  url: https://appmaster.io/roadmap
+- type: TermsOfService
+  url: https://appmaster.io/legal/terms
+- type: PrivacyPolicy
+  url: https://appmaster.io/legal/privacy
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 17
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

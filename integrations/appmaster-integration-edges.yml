@@ -1,0 +1,18 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/appmaster/integrations
+- https://zapier.com/apps/appmaster-io/integrations
+- https://n8n.io/integrations/appmaster/
+- https://composio.dev/toolkits/appmaster
+- https://monid.ai/tools/appmaster
+checked:
+- https://composio.dev/toolkits/appmaster
+- https://monid.ai/tools/appmaster
+- https://n8n.io/integrations/appmaster/
+- https://zapier.com/apps/appmaster-io/integrations
+- https://zapier.com/apps/appmaster/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
